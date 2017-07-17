@@ -1,0 +1,32 @@
+#header  {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 69px;
+  color: seashell;
+  opacity: .9;
+  flex-wrap: wrap;
+}
+
+#teacozy{
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sections{
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  flex-wrap: nowrap;
+}
+nav span {
+  margin-left: 23px;
+}
