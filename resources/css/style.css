@@ -4,10 +4,18 @@
   background-color: black;
   height: 69px;
   color: seashell;
-  opacity: .9;
+  opacity: 0.9;
   flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
 }
 
+*{
+  color: seashell;
+}
 #teacozy{
   height: 50px;
   padding-left: 10px;
@@ -15,18 +23,157 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 155px;
 }
 
 #sections{
   text-decoration: underline;
   font-family: Helvetica;
   font-size: 22px;
+  opacity: 0.9;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 20px;
   flex-wrap: nowrap;
 }
 nav span {
   margin-left: 23px;
+}
+
+body{
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+  display: block;
+}
+
+.body{
+  text-align: center;
+}
+
+#picture1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  margin-left: 40px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#content {
+  font-family: Helvetica;
+  font-size: 22px;
+  display: block-flex;
+  opacity: 0.9;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+#teas {
+  display: block-flex;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 70px;
+  opacity: 0.9;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+#pictures{
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1000px;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture{
+  padding-left: 25px;
+
+}
+
+#what{
+  margin-top: -10px;
+}
+
+#picture2{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.bottom{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.something{
+  width: 100%;
+}
+
+#locations{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+#info {
+  background-color:transparent;
+}
+
+.location{
+  display: block;
+  margin: 20px;
+  width: 300px;
+  background-color: black;
+  align-items: stretch;
+}
+
+h2{
+  display: block;
+}
+
+#locale{
+  margin-bottom: 0px;
+}
+
+.location h4 {
+  font-weight: normal;
+}
+
+#email{
+  text-decoration: underline;
+}
+
+#contact{
+  display: block-flex;
+  height: 200px;
+}
+
+#footer{
+  text-align: left;
+  margin-left: 20px;
 }
